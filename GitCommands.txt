@@ -31,3 +31,9 @@ git pull
  
 --- to check the file change that has happened from past
 git diff <FileName.extension>
+
+-- to check for difference in staged files
+git diff --staged <FileName.extension> 
+
+-- to unstage a file ---
+git reset <FileName.extension>
