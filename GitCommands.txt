@@ -1,0 +1,33 @@
+git --version  : to find version of git
+git status- tells whats current status of git
+git init : convert empty repo to git repo
+git add . : to add all files to staging area
+git commit -m "version 1" : to commit
+git log : to see which developer has done what changes
+git config --global user.name "Ved Prakash" : to change email and name for all repos
+git config --global user.email "ved.30dec@gmail.com"
+
+make changes in file and save it
+git status -> means its modified
+git add . (to add all files)
+git commit -m "Version 2" -> to commit the files so that now its moved from staging area and is ready to go to the github repo
+
+git log : to see who made these changes
+
+-- how to write commit messages ---
+"changes method to post and fixes log in bug"
+
+--- remote area---
+git remote add origin "url details"
+url details can be in https format or in ssh format
+If it is in ssh format, we need to add generate ssh key, connect git on our system to that ssh key and also github needs to have that ssh key.
+
+---- to push the code---
+git push -u origin master
+Note: origin master needs to be set initially using the above remote area code
+
+-- to pull code---
+git pull
+ 
+--- to check the file change that has happened from past
+git diff <FileName.extension>
